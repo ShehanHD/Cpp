@@ -1,0 +1,19 @@
+#include <iostream>
+
+typedef struct self{
+    int index;
+    struct self *next;
+}nodo;
+
+template<typename tipo>
+class dictionary{
+    private:
+        int index;
+
+    public:
+        dictionary();
+        void add(std::string, tipo const&);
+        void stampa(nodo*);
+};
+
+#include "def.tpp"

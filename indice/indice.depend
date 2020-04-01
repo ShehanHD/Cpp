@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1575049157 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\indice\indice.cpp
+	"indice.h"
+	<iostream>
+
+1574973468 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\indice\indice.h
+	<iostream>
+
+1575120769 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\indice\main.cpp
+	<iostream>
+	<fstream>
+	"indice.h"
+	"funC.h"
+
+1574944566 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\indice\func.h
+	<stdio.h>
+	<stdlib.h>
+
+1574978323 source:c:\users\sheha\onedrive\4°anno\c++\indice\main.cpp
+	<iostream>
+	<fstream>
+	"indice.h"
+	"funC.h"
+
+1574973468 c:\users\sheha\onedrive\4°anno\c++\indice\indice.h
+	<iostream>
+
+1574944566 c:\users\sheha\onedrive\4°anno\c++\indice\func.h
+	<stdio.h>
+	<stdlib.h>
+
+1575049157 source:c:\users\sheha\onedrive\4°anno\c++\indice\indice.cpp
+	"indice.h"
+	<iostream>
+

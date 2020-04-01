@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1574594784 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\dizionario\main.cpp
+	<iostream>
+	<exception>
+	"dictionary.h"
+
+1574594096 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\dizionario\dictionary.h
+	<iostream>
+
+1574594809 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\dizionario\def.cpp
+	<iostream>
+	<malloc.h>
+	<exception>
+	"dictionary.h"
+	<fstream>
+
+1574507505 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\dizionario\def.cpp
+	<iostream>
+	"dictionary.h"
+
+1574508348 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\dizionario\def.tpp
+	<iostream>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1559166786 source:c:\users\sheha\onedrive\proj c\cpp\matricetra\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

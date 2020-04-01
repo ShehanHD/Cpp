@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1551128223 source:c:\users\sheha\onedrive\proj c\cpp\prova1\main.cpp
+	<iostream>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct{
+    int num1;
+    char str[10];
+}fbinari;
+
+int main()
+{
+    fbinari x;
+
+   /* scanf("%d",&x.num1);
+    scanf("%s",x.str);
+
+    FILE * fp = fopen("file","wb");
+
+    fwrite(&x,sizeof(fbinari),1,fp);
+
+    fclose(fp);*/
+
+    FILE * fp = fopen("file", "rb");
+
+    while(!feof(fp)){
+        fread(&x,sizeof(fbinari),0,fp);
+    }
+    fprintf("%d  %s",x.num1,x.str);
+
+    fclose(fp);
+    return 0;
+}

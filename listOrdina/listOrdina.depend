@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1571506052 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\listordina\main.cpp
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	"lista.h"
+
+1572007125 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\listordina\lista.h
+	<iostream>
+	<cstdlib>
+	<conio.h>
+

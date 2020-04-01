@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1575205274 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\index 2.0\main.cpp
+	<iostream>
+	"IOFile.h"
+	<string.h>
+
+1575210221 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\index 2.0\include\iofile.h
+	<iostream>
+
+1575211739 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\index 2.0\src\iofile.cpp
+	"IOFile.h"
+	<iostream>
+	<fstream>
+	<string.h>
+	<cstdlib>
+
+1575145861 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\index 2.0\include\tempc.h
+	<stdio.h>
+	<stdlib.h>
+
+1575569729 source:c:\users\sheha\onedrive\4°anno\c++\index 2.0\main.cpp
+	<iostream>
+	"IOFile.h"
+	<string.h>
+	<cstdlib>
+
+1575214055 c:\users\sheha\onedrive\4°anno\c++\index 2.0\include\iofile.h
+	<iostream>
+
+1575567164 source:c:\users\sheha\onedrive\4°anno\c++\index 2.0\src\iofile.cpp
+	"IOFile.h"
+	<iostream>
+	<fstream>
+	<string.h>
+	<cstdlib>
+

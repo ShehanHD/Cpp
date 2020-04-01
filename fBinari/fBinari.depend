@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553530973 source:c:\users\sheha\onedrive\proj c\cpp\fbinari\main.c
+	<stdio.h>
+	<stdlib.h>
+

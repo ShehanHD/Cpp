@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1573934134 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\templates\def.cpp
+	<iostream>
+	"prototipi.h"
+
+1573934134 c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\templates\prototipi.h
+	<iostream>
+
+1574094013 source:c:\users\sheha_xp3yxp0\onedrive\4°anno\c++\templates\main.cpp
+	<iostream>
+	<stdexcept>
+	<math.h>
+
+1573934134 source:c:\users\sheha\onedrive\4°anno\c++\templates\def.cpp
+	<iostream>
+	"prototipi.h"
+
+1573934134 c:\users\sheha\onedrive\4°anno\c++\templates\prototipi.h
+	<iostream>
+
+1574094013 source:c:\users\sheha\onedrive\4°anno\c++\templates\main.cpp
+	<iostream>
+	<stdexcept>
+	<math.h>
+

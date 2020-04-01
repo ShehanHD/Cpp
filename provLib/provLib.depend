@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1552425710 source:c:\users\sheha\onedrive\proj c\cpp\provlib\main.cpp
+	<iostream>
+	<fstream>
+	"prov.h"
+
+1552484398 c:\users\sheha\onedrive\proj c\cpp\provlib\prov.h
+	<iostream>
+
+1552467721 source:c:\users\sheha\onedrive\proj c\cpp\provlib\defen.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"prov.h"
+
