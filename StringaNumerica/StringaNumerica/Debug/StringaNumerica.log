@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\sheha_xp3yxp0\OneDrive\4°anno\C++\StringaNumerica\StringaNumerica\main.cpp(122,18): warning C4101: 'val': variabile locale senza riferimenti
-  StringaNumerica.vcxproj -> C:\Users\sheha_xp3yxp0\OneDrive\4°anno\C++\StringaNumerica\Debug\StringaNumerica.exe
+C:\Users\sheha_xp3yxp0\OneDrive\Documenti\Visual Studio 2019\Projects\StringaNumerica\StringaNumerica\main.cpp(129,18): warning C4101: 'val': variabile locale senza riferimenti
+  StringaNumerica.vcxproj -> C:\Users\sheha_xp3yxp0\OneDrive\Documenti\Visual Studio 2019\Projects\StringaNumerica\Debug\StringaNumerica.exe

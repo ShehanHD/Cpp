@@ -6,9 +6,29 @@
 #include <list>
 #include <iterator>
 #include <stack>
-#include "BST.h"
 
 using namespace std;
+/* Il Seguente Programma Svolge quanto segue
+Data una stringa contenente una espressione algebrica s, estrarre i valori numerici presenti al proprio interno, trasformarli in interi e memorizzarli in un array
+ESERCIZI
+
+    * Documentare i prototipi delle Seguenti funzioni, fornendo:
+            * una breve descrizione sul compito svolto dalle funzioni
+            * sullo scopo dei parametri
+            * sul motivo per cui saranno passati per valore o per riferimento
+            * una breve descrizionee degli eventuali risultati prodotti dalle finzioni
+
+ 1 Progettare il prototipo di una funzione che svolga lo stesso compito
+ 2 Progettare il prototipo di una funzione e successivamento l'Algoritmo che svolga lo stesso compito del programma proposto salvando i dati numerici in un array dinamico
+ 3 Progettare il prototipo di una funzione e successivamento l'Algoritmo che svolga lo stesso compito del programma proposto salvando i dati numerici in una lista
+ 4 Progettare il prototipo di una funzione e successivamento l'Algoritmo che svolga lo stesso compito del programma proposto salvando i dati numerici in una lista utilizzando la classe list STL del C++
+ 5 Progettare il prototipo di una funzione e successivamento l'Algoritmo che svolga lo stesso compito del programma proposto salvando i dati numerici in uno Stack utilizzando la classe Stack STL del C++
+ 6 Progettare il prototipo di una funzione e successivamento l'Algoritmo che svolga lo stesso compito del programma proposto salvando i dati numerici in un Albero Binario di Ricerca
+ 7 Costruire un main che richiami la funzioni e ne produca lo stesso output del programma di riferimento
+ Documentare i prototipi delle funzioni fornendo una breve descrizione sullo scopo dei parametri sul motivo per cui saranno passati per valore o per riferimento
+ e degli eventuali risultati prodotti dalle finzioni
+
+*/
 
 typedef struct self {
     struct self* prev;
@@ -16,17 +36,17 @@ typedef struct self {
     struct self* next;
 }nodo;
 
-void listMio(nodo** testa, int t);          //la funziona per inserire i dati alla mia lista ha due parametri uno per riferimento(la lista) altra per valore(intero)
-void listMioPrint(nodo* list);              //la funziona per stampare i dati ha un parametro per valore(la mia lista)
+void listMio(nodo** testa, int t);
+void listMioPrint(nodo* list);
 
-void vectorSTL(vector<int>* num, int x);    //la funziona per inserire i dati alla vettore STL ha due parametri uno per riferimento(Il vettore) altra per valore(intero)
-void vectorSTLPrint(vector<int> num);       //la funziona per stampare i dati ha un parametro per valore(Il vettore STL)
+void vectorSTL(vector<int>* num, int x);
+void vectorSTLPrint(vector<int> num);
 
-void listSTL(list<int>* num, int x);        //la funziona per inserire i dati alla lista STL ha due parametri uno per riferimento(La lista) altra per valore(intero)
-void listSTLPrint(list<int> num);           //la funziona per stampare i dati ha un parametro per valore(la list STL)
+void listSTL(list<int>* num, int x);
+void listSTLPrint(list<int> num);
 
-void stackSTL(stack<int>* num, int x);      //la funziona per inserire i dati alla stack STL ha due parametri uno per riferimento(Il stack) altra per valore(intero)
-void stackSTLPrint(stack<int> num);         //la funziona per stampare i dati ha un parametro per valore(la stack STL)
+void stackSTL(stack<int>* num, int x);
+void stackSTLPrint(stack<int> num);
 
 int main()
 {
@@ -35,36 +55,27 @@ int main()
     int i = 0; // Indice utilizzato per la scansione della stringa s
     int j = 0; // Indice utilizzato per la scansione della stringa s
 
-    vector<int> numVector;  //dichierazion di un oggetto usando il classe template vector
-    nodo* li = NULL;        //iniziare una lista
-    list<int> liSTL;        //dichierazion di un oggetto usando il classe template lista
-    stack<int> stSTL;       //dichierazion di un oggetto usando il classe template stack
-    BST bst;                //dichierazion di un oggetto albero binario
+    vector<int> numVector;
+    nodo* li = NULL;
+    list<int> liSTL;
+    stack<int> stSTL;
 
     printf("Espressione iniziale: %s\n\n", s);
 
-    // i per scrrere sui caratteri della stringa
-    // j per indicare posizione del array s1(dove si trova i valori numerici)
-    while (s[i] != '\0') {                      // loop si gira fino a carattere speciale
+    while (s[i] != '\0') {  // Ciclo per l'estrazione dei Valori Numerici
         j = 0;
-
-        while (s[i] >= '0' && s[i] <= '9') {    //loop si girà finche trova un carattere tra 0 a 9
-           
-            s1[j] = s[i];                       //mette il valore numerci nel array s1
+        while (s[i] >= '0' && s[i] <= '9') {  //Ciclo per la preparazione delle eventuali stringhe numeriche composte da piu' simboli numerici
+            s1[j] = s[i];
             i++;
             j++;
-            if (!(s[i] >= '0' && s[i] <= '9' && s[i] == '('))
+            if (!(s[i] >= '0' && s[i] <= '9'))
             {
                 s1[j] = '\0';
-
-                //inserire i valori ai contenitori
                 vectorSTL(&numVector, atoi(s1));
                 listMio(&li, atoi(s1));
                 listSTL(&liSTL, atoi(s1));
                 stackSTL(&stSTL, atoi(s1));
-                bst.addLeaf(atoi(s1));
             }
-
         }
         i++;
     }
@@ -77,8 +88,6 @@ int main()
     listSTLPrint(liSTL);
     cout << "\nstack STL \t=>\t ";
     stackSTLPrint(stSTL);
-    cout << "\nAlbero binario \t=>\t ";
-    bst.printInOrder();
 
     return 0;
 }
