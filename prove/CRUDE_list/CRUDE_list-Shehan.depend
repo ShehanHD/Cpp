@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1571238546 source:c:\users\sheha\onedrive\19_20 c++\crude_list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"prototipi.h"
+
+1571003659 source:c:\users\sheha_xp3yxp0\onedrive\19_20 c++\crude_list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	"prototipi.h"
+
+1570914743 c:\users\sheha_xp3yxp0\onedrive\19_20 c++\crude_list\prototipi.h
+
+1571003707 source:c:\users\sheha_xp3yxp0\onedrive\19_20 c++\crude_list\def.c
+	"prototipi.h"
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1571057214 c:\users\sheha\onedrive\19_20 c++\crude_list\prototipi.h
+
+1571057239 source:c:\users\sheha\onedrive\19_20 c++\crude_list\def.c
+	"prototipi.h"
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
