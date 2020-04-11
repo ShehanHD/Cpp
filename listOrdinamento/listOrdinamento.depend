@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1571427265 source:c:\users\sheha\onedrive\19_20 c++\listordinamento\main.cpp
+	<iostream>
+	<conio.h>
+	"list.h"
+
+1571427283 c:\users\sheha\onedrive\19_20 c++\listordinamento\list.h
+	<iostream>
+	<conio.h>
+	<cstdlib>
+
