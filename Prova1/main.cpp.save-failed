@@ -1,0 +1,77 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+class ogg{
+    private:
+        double latoB;
+        double latoH;
+    public:
+
+        void getRettangolo(){
+        cout<<"Inserisci Lato Base :";
+        cin>>latoB;
+        cout<<"Inserisci Lato Altezza :";
+        cin>>latoH;
+        }
+
+        void setRettangolo(){
+            cout<<"Area      ="<<latoH*latoB<<endl;
+            cout<<"Perimetro ="<<(latoH*2)+(latoB*2)<<endl;
+            cout<<"Diogonale ="<<sqrt(pow(latoH,2)+pow(latoB,2))<<endl;
+        }
+
+        void getQuadro(){
+            cout<<"Inserisci Lato:";
+            cin>>latoB;
+
+        }
+         void setQuadro(){
+            cout<<"Area      ="<<latoB*latoB<<endl;
+            cout<<"Perimetro ="<<latoB*4<<endl;
+            cout<<"Diogonale ="<<sqrt((pow(latoB,2))+(pow(latoB,2)))<<endl;
+        }
+
+        void getCerchio(){
+            cout<<"inserisci Raggio:";
+            cin>>latoB;
+        }
+
+        void setCerchio(){
+            cout<<"Perimetro ="<<2*(22/7)*latoB<<endl;
+            cout<<"Area      ="<<(22/7)*pow(latoB,2)<<endl;
+        }
+};
+
+int main()
+{
+    ogg prov;
+    int scelta;
+do{
+    cout<<"Scegli il Ogetto"<<endl<<"1 per Rettangolo"<<endl<<"2 per Quadro"<<endl<<"3 per Cerchio"<<endl<<"0 per Uscire"<<endl;
+    cin>>scelta;
+
+    if(scelta==1){
+    system("clr");
+    cout<<"Rettangolo"<<endl<<endl;
+    prov.getRettangolo();
+    prov.setRettangolo();
+    }
+
+    if(scelta==2){
+    system("cls");
+    cout<<"Quadro"<<endl<<endl;
+    prov.getQuadro();
+    prov.setQuadro();
+    }
+
+    if(scelta==3){
+    system("cls");
+    cout<<"Cerchio"<<endl<<endl;
+    prov.getCerchio();
+    prov.setCerchio();
+    }
+}while(scelta!=0);
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558627348 source:c:\users\sheha\onedrive\proj c\cpp\provacoda\main.cpp
+	<iostream>
+	<stdio.h>
+
